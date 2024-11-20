@@ -1,4 +1,5 @@
 import React from 'react';
+import CensorButton from './CensorButton';
 
 import {
   readFile,
@@ -31,9 +32,10 @@ function Home() {
   return (
     <main>
       <h1>Welcome!</h1>
-      <p>You are visitor number {hits}.</p>
+      <p>You are visitor number <CensorButton>{hits}</CensorButton>.</p>
     </main>
   );
 }
 
 export default Home;
+
