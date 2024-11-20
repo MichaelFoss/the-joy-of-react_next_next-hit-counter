@@ -1,0 +1,12 @@
+button {
+  border: none;
+  padding: 0px;
+  background: transparent;
+  cursor: pointer;
+  transition: filter 200ms;
+  font-weight: bold;
+}
+.censored {
+  filter: blur(4px);
+}
+

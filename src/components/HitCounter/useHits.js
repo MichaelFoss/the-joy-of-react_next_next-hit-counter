@@ -1,7 +1,7 @@
 import {
   readFile,
   writeFile,
-} from '../helpers/file-helpers';
+} from '../../helpers/file-helpers';
 
 const DATABASE_PATH = '/src/database.json';
 
